@@ -11,7 +11,7 @@ source activate /m/nbe/scratch/leap_mcpsych/Paula/env/leap_fmri
 
 # Read subject from list
 n=$SLURM_ARRAY_TASK_ID
-subject=$(sed -n "${n}p" extra.txt)
+subject=$(sed -n "${n}p" subject_list.txt)
 
 # Run your Python script
-/m/nbe/scratch/leap_mcpsych/Paula/env/leap_fmri/bin/python ./python/clean_parcellation.py $subject
+/m/nbe/scratch/leap_mcpsych/Paula/env/leap_fmri/bin/python ./python/s04_clean_parcellation.py $subject
