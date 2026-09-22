@@ -38,7 +38,6 @@ subject = sys.argv[1]
 
 # Create parcellated data
 
-#func_filename = '/m/nbe/scratch/leap_mcpsych/fMRI/sample/ses-01/ICA_FIX/' + subject + '/filtered_func_data/filtered_func_data.ica/filtered_func_data_clean.nii.gz'
 filepath = '/m/nbe/scratch/leap_mcpsych/fMRI/sample/' + ses + '/derivatives/' + subject + '/func/'
 func_filename = subject + '_task-rest_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz'
 conf_filename = subject + '_task-rest_desc-confounds_timeseries.tsv'
