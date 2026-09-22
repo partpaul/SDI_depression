@@ -12,7 +12,7 @@ import bottleneck
 import os
 
 
-# Parameters, choose weather with or without global signal
+# Parameters, choose whether with or without global signal
 
 confound_list =  ['trans_x', 'trans_x_derivative1', 'trans_x_power2',
       'trans_x_derivative1_power2', 'trans_y', 'trans_y_derivative1',
